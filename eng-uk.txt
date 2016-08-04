@@ -73,6 +73,7 @@ var engUK = {
         'settingsDisabled': "settings disabled",
         'home': "Home",
         /*      --------------- Display: Settings ---------------       */
+        'language': "Language",
         'loggingType': "Logging type",
         'limited': "Limited",
         'normal': "Normal",
@@ -166,6 +167,31 @@ var engUK = {
         'message': "Message",
         'noEvents': "no events",
         'emailLogFeedback': "Email log feedback",
-
-
+        /*      --------------- Software port service ---------------        */
+        'evo192Reject1': "EVO192 Detected - special functions are unsupported.",
+        'evo192Reject2': "Subsequent re-login to panel might fail temporarily",
+        'loginFailAnotherUser': "Login to alarm panel on software port unsuccessful, another user might be logged in",
+        /*      --------------- Alarm service ---------------        */
+        'currentlyLoggedIn': "currently logged in",
+        'readySendLoginRequest': "ready to send login request...",
+        'loginError1': "Error: Login request timed out or IP module returned error.",
+        'loginError2': "Error: Timeout during login",
+        'retrievingAlarmInfo': "retrieving alarm info...",
+        'successConnected': "success, connected to alarm",
+        /*      --------------- Database service ---------------        */
+        'selectConnectUpdateInfo': "select 'connect' to update info",
+        'error': "Error",
+        'success': "Success",
+        'alarmExist': "Alarm name already exists",
+        'alarmAdded': "Alarm added",
+        'couldntUpdateAlarm': "Couldn't update alarm details",
+        'alarmChanged': "Alarm changed",
+        'couldntDeleteAlarm': "Couldn't delete alarm",
+        'alarmDeleted': "Alarm deleted",
+        //---------------------------------------ADDED----------2016/08/02
+        'checkIpDns': "Check IP / DNS", 
+        'siteDnsIpReq': "Sitename or IP/DNS required",
+        'checkSitename': "Check sitename",
+        'importantNotice': "Important notice!",
+        'specialFeaturesNotice' : "Most special functions will make a new ('software port') connection to your alarm panel which is not encrypted, and connect using your password (unprotected). Use these features with caution as network interruptions might leave the alarm panel in incorrect states. <b>Also ensure the correct software port is configured in your settings.</b> <br> <br> Only tested on MG5050 (v4.91)"
     }
