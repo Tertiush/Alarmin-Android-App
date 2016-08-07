@@ -126,7 +126,7 @@ var engUK = {
         'password': "Password",
         'save': "Save",
         'discoveredAlarms': "Discovered Alarms",
-        'selectPullToRefresh': "(select/pull to refresh)",
+        'selectPullToRefresh': "(pull to refresh)",
         'discoveredName': "Name:",
         /*      --------------- Display: Manage Alarms ---------------        */
         'addNewAlarm': "Add new alarm",
@@ -193,7 +193,7 @@ var engUK = {
         'siteDnsIpReq': "Sitename or IP/DNS required",
         'checkSitename': "Check sitename",
         'importantNotice': "Important notice!",
-        'specialFeaturesNotice' : "Most special functions will make a new ('software port') connection to your alarm panel which is not encrypted, and connect using your password (unprotected). Use these features with caution as network interruptions might leave the alarm panel in incorrect states. <b>Also ensure the correct software port is configured in your settings.</b> <br> <br> Only tested on MG5050 (v4.91)"
+        'specialFeaturesNotice': "Most special functions will make a new ('software port') connection to your alarm panel which is not encrypted, and connect using your password (unprotected). Use these features with caution as network interruptions might leave the alarm panel in incorrect states. <b>Also ensure the correct software port is configured in your settings.</b> <br> <br> Only tested on MG5050 (v4.91)",
         //---------------------------------------ADDED----------2016/08/06
         'noEmailOpen': "Cannot set - all available email locations used",
         'retrievingSettings': "retrieving settings...",
@@ -218,5 +218,9 @@ var engUK = {
         'IO1': "IO1",
         'IO2': "IO2",
         'webAccessBlocked': "Web access blocked",
-        'pushNote1': "Note: An active internet connection is required. This feature will override your IP module's email configuration.",
+        'pushNote1': "Note: An active internet connection is required",
+
+        'userNoPermission': "Error: The configured pin for this alarm might not allow editing of email settings",
+
+
     }
