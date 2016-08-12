@@ -1,4 +1,4 @@
-var engUK = {
+    var engUK = {
         'checkingComms': "checking comms...",
         'noComms': "No comms available to alarm, check your network connection and settings (defaulting to configured IP address)",
         'ready': "ready...",
@@ -50,7 +50,7 @@ var engUK = {
         'internalError': "Internal error",
         'errorWithConnection': "error with connection",
         'errorWithLogin': "Error with login",
-        'confirmAlarmSettings': "Please confirm your alarm's setting.",
+        'confirmAlarmSettings': "Please confirm your alarm's setting. ",
         'commsError': "Comms error",
         'commsToAlarmFailDisconnecting': "Connection with alarm failed, disconnecting",
         'linkToAlarmUnstable': "link to alarm unstable",
@@ -58,7 +58,7 @@ var engUK = {
         'disconnectedReady': "(disconnected) ready...",
         'busy': "busy...",
         'alarmInfoChanged': "Alarm info changed",
-        'updateSaveInfo': "Alarm info changed",
+        'updateSaveInfo': "Should the new info be saved (select yes if this is your first connection to the alarm)",
         'yes': "Yes",
         'no': "No",
         'errorConnecting': "error connecting",
@@ -166,7 +166,7 @@ var engUK = {
         'logsNote': "Logs are only stored locally and deleted once you close the app. If you are encountering issues with the app, switch the logs to 'verbose' mode in the settings. Then perform the action again with which you are having issues and send the resulting logs using the button below",
         'message': "Message",
         'noEvents': "no events",
-        'emailLogFeedback': "Email log feedback",
+        'emailLogFeedback': "Email feedback",
         /*      --------------- Software port service ---------------        */
         'evo192Reject1': "EVO192 Detected - special functions are unsupported.",
         'evo192Reject2': "Subsequent re-login to panel might fail temporarily",
@@ -205,11 +205,12 @@ var engUK = {
         'successSettingsSaved': "success, settings saved",
         'newPushConfigSuccess': "New user successfully registered for push notifications",
         'existingPushConfigSuccess': "Existing user's push notifications successfully updated",
-        'failPushUpdate': "Failed to update alarm on push server",
-        'errorConnectServer': "error connecting to server",
-        'googlePlayError': "google play services error",
+        'failPushUpdate': "Failed to update alarm on push server, try again later",
+        'errorConnectServer': "error connecting to server, try again later",
+        'googlePlayError': "google play services error, try again later",
         'pushService': "Push service",
         'pushNotifications': "Push Notifications",
+        'pushNotification': "Push Notification",
         'selectAreasNotify': "Select areas to be notified",
         'area': "Area",
         'selectEventsNotify': "Select events to be notified",
@@ -218,9 +219,33 @@ var engUK = {
         'IO1': "IO1",
         'IO2': "IO2",
         'webAccessBlocked': "Web access blocked",
-        'pushNote1': "Note: An active internet connection is required",
-
+        'pushNote1': "Note: An active internet connection is required. If you delete this alarm in the future the push notification will continue to be sent. Use this app to disable the notifications",
+        //---------------------------------------ADDED----------2016/08/08
         'userNoPermission': "Error: The configured pin for this alarm might not allow editing of email settings",
+        'alarmNames': "Alarm Names",
+        'areaNames': "Area Names",
+        'zonePartitions': "Zone Partitions",
+        'zoneNames': "Zone Names",
+        'troubleNames': "Trouble Names",
+        'delete': "Delete",
+        //---------------------------------------ADDED----------2016/08/09
+        'alertSmtpOverride': "You have selected to override your SMTP settings. If you were receiving emails from your alarm before, this will NOT continue to work. If you selected the override by mistake, unselect the option before saving. Alarmin can work with either your own SMTP server or override the setting if you don't have one.",
+        'note': "Note",
+        'doNotModEmail': "Use_own_SMTP_server_before@editing.com",
+        'pushNote2': "Your IP module is not configured for sending emails. Enabling push notification will configure an SMTP server on your IP module which can only be used for push notifications (not personal emails). You can change the SMTP server setting if you wish to also send personal emails, as long as the alarmin notification emails remain unchanged.",
+        'pushNote3': "Your IP module is already configured for sending emails. If you would like to continue using personal emails in conjunction with push notifications, ensure the following option is not selected. Overriding the SMTP server will delete or disable your existing email notifications",
+        'overrideSMTP': "Set (override) SMTP server",
+        'pushNotReachable': "Push service not reachable, try again later",
+        //---------------------------------------ADDED----------2016/08/10
+        'updateExistingPushUser': "Existing user profile on this alarm will be updated",
+        'createNewPushUser': "New user profile will be created for this alarm",
+        'requestAlarmDataTimeout': "Error: Request for alarm data timed out",
+        'fullScreen': "Full Screen",
+        'controlStillInOp': "control still in operation...",
+        'pmhReady': "(PHM) ready...",
+        'updatingEvents': "updating events",
+        'earlyPushNote': "This feature is in an early testing phase. Ensure that you backup your IP module's email setting before proceeding.",
+        'ok': "Ok"
 
 
     }
