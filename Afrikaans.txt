@@ -119,7 +119,7 @@
         'ipAddress': "IP Adres",
         'or': "of", //this (or) that
         'secureOption': "Gebruik SSL/TLS (HTTPS)",
-        'webPort': "Web Poort (http/s)",
+        'webPort': "Web Poort",
         'softwarePort': "Sagteware poort",
         'typicalSoftPort': "tiepies 10000",
         'pinCode': "Pin kode",
@@ -245,6 +245,23 @@
         'pmhReady': "(PHM) gereed...",
         'updatingEvents': "gebeurtenisse word opdateer",
         'earlyPushNote': "Hierdie funksie is nog in 'n vroeë toets fase. Sttor asb 'n kopie van u IP module se e-pos instellings voordat u voortgaan.",
-        'ok': "Ok"
-
+        'ok': "Ok",
+        //---------------------------------------ADDED----------2016/08/13
+        'disconnectingAlarm': "Ontkoppel tans van alarm...",
+        'backToExit': "Druk weer terug om te verlaat",
+        //---------------------------------------ADDED----------2016/08/18
+        'push': "Push",
+        'compressedView': "Onderdruk Alarm Skrem",
+        'helpIssues': "Help / Probleme",
+        'help': "Help",
+        'serviceAnnouncements': "Diens Afkondigings",
+        'noAnnounce': "Geen afkondigings huideglik",
+        'gotoGithub': "Gaan na GitHub",
+        'enhancements': "Verbeteringe",
+        'bugs': "Foute",
+        'all': "Als",
+        'helpWanted': "Hulp Benodig",
+        'question': "Vrae",
+        'unread': "ongelees",
+        'filterBy': "Filtreer met"
     }
