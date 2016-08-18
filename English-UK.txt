@@ -74,7 +74,7 @@
         'home': "Home",
         /*      --------------- Display: Settings ---------------       */
         'language': "Language",
-        'loggingType': "Logging type",
+        'loggingType': "Logging Type",
         'limited': "Limited",
         'normal': "Normal",
         'verbose': "Verbose",
@@ -119,7 +119,7 @@
         'ipAddress': "IP Address",
         'or': "or", //this (or) that
         'secureOption': "Use SSL/TLS (HTTPS)",
-        'webPort': "Web Port (http/s)",
+        'webPort': "Web Port",
         'softwarePort': "Software port",
         'typicalSoftPort': "typically 10000",
         'pinCode': "Pin code",
@@ -191,7 +191,7 @@
         //---------------------------------------ADDED----------2016/08/02
         'checkIpDns': "Check IP / DNS", 
         'siteDnsIpReq': "Sitename or IP/DNS required",
-        'checkSitename': "Check sitename",
+        'checkSitename': "Check sitename. This should not contain spaces. If you do not use the ParadoxMyHome.com service, simply remove the sitename.",
         'importantNotice': "Important notice!",
         'specialFeaturesNotice': "Most special functions will make a new ('software port') connection to your alarm panel which is not encrypted, and connect using your password (unprotected). Use these features with caution as network interruptions might leave the alarm panel in incorrect states. <b>Also ensure the correct software port is configured in your settings.</b> <br> <br> Only tested on MG5050 (v4.91)",
         //---------------------------------------ADDED----------2016/08/06
@@ -245,7 +245,26 @@
         'pmhReady': "(PHM) ready...",
         'updatingEvents': "updating events",
         'earlyPushNote': "This feature is in an early testing phase. Ensure that you backup your IP module's email setting before proceeding.",
-        'ok': "Ok"
-
-
+        'ok': "Ok",
+        //---------------------------------------ADDED----------2016/08/12
+        'alarmDetails': "Alarm Details",
+        'ipModuleDetails' : "IP Module Details",
+        //---------------------------------------ADDED----------2016/08/13
+        'disconnectingAlarm': "Disconnecting alarm...",
+        'backToExit': "Press back button again to exit",
+        //---------------------------------------ADDED----------
+        'push': "Push",
+        'compressedView': "Compress Alarm Screen",
+        'helpIssues': "Help / Issues",
+        'help': "Help",
+        'serviceAnnouncements': "Service Announcements",
+        'noAnnounce': "No announcements currently",
+        'gotoGithub': "Go to GitHub",
+        'enhancements': "Enhancements",
+        'bugs': "Bugs",
+        'all': "All",
+        'helpWanted': "Help Wanted",
+        'question': "Question",
+        'unread': "unread",
+        'filterBy': "Filter by"
     }
