@@ -1,4 +1,4 @@
-var catala = {
+    var catala = {
         'checkingComms': "comprovant comunicació.",
         'noComms': "Sense comunicació, comprova la connexió i configuració del panell (per defecte IP)",
         'ready': "Preparat ...",
@@ -32,7 +32,7 @@ var catala = {
         'onDelayOff': "Activa = Actiu..espera..Apagat",
         'offDelayOn': "Desactivar = Apagat..espera..Actiu",
         'allDelays1Sec': "Tots els polsos són d'1 segon.",
-        'off' : "Apagat",
+        'off': "Apagat",
         'pgmControlOff': "PGM control Apagat ...",
         'pgmControlOnDone': "PGM control Actiu. A punt",
         'pgmControlOn': "PGM control Actiu ...",
@@ -41,7 +41,7 @@ var catala = {
         'area': "area",
         'noChangeDisconnecting': "no hi ha canvis detectats, desconnectant",
         'getAlarmInfoFailed': "error carregant info del panell",
-        'loginRequestFailed':"petició inicial fallida",
+        'loginRequestFailed': "petició inicial fallida",
         'couldNotConnect': "no es pot connectar!",
         'controllingArea': "area de control",
         'errorDisconnecting': "error, desconnectant",
@@ -69,7 +69,7 @@ var catala = {
         'manageAlarms': "Configura alarmes",
         'viewLogs': "Veure Registres",
         'settings': "Configuració",
-        'about': "Sobre",
+        'about': "Acerca de",
         'settingsDisabled': "config desactivada",
         'home': "Inici",
         /*      --------------- Display: Settings ---------------       */
@@ -119,7 +119,7 @@ var catala = {
         'ipAddress': "Direcció IP",
         'or': "o", //this (or) that
         'secureOption': "Utilitza SSL/TLS (HTTPS)",
-        'webPort': "Port Web (http/s)",
+        'webPort': "Port Web",
         'softwarePort': "Port Software",
         'typicalSoftPort': "Per defecte 10000",
         'pinCode': "Codi usuari",
@@ -192,9 +192,8 @@ var catala = {
         //---------------------------------------ADDED----------2016/08/02
         'checkIpDns': "Comprova IP / DNS",
         'siteDnsIpReq': "Nom o IP / DNS requerit",
-        'checkSitename': "Comprova el nom del lloc",
         'importantNotice': "Notificació important!",
-        'specialFeaturesNotice': "La majoria de les funcions especials fan una nova connexió ('port de programari') perquè el panell d'alarma no es pot encriptat, i connectar-se a través de la seva contrasenya (sense protecció). Utilitzar aquestes característiques amb cura, ja que les interrupcions de xarxa poden deixar el panell d'alarma en estat incorrecte. A més comprova la correcta configuracion del port de programari en les opcions.</b> <br> <br>Només provat en MG5050 (v4.91)",
+        'specialFeaturesNotice': "La majoria de les funcions especials fan una nova connexió ('port de programari') perquè el panell d'alarma no es pot encriptat, i connectar-se a través de la seva contrasenya (sense protecció). Utilitzar aquestes característiques amb cura, ja que les interrupcions de xarxa poden deixar el panell d'alarma en estat incorrecte. A més comprova la correcta configuracion del port de programari en les opcions.</b>",
         //---------------------------------------ADDED----------2016/08/06
         'noEmailOpen': "No es pot configura, tots els destins de correus electrònics usats",
         'retrievingSettings': "recuperan configuració...",
@@ -246,5 +245,39 @@ var catala = {
         'pmhReady': "(PHM) Preparat...",
         'updatingEvents': "actualitzant eveniments",
         'earlyPushNote': "Aquesta característica es troba en una fase primerenca de proves. Assegurar-se fer una còpia de seguretat de la configuració dels correus electrònics que hi ha al seu mòdul IP abans de continuar.",
-        'ok': "Acceptar"
+        'ok': "Acceptar",
+        //---------------------------------------ADDED----------2016/08/13
+        'disconnectingAlarm': "Desconnectant panell...",
+        'backToExit': "Prem botó enrere de nou per sortir",
+        //---------------------------------------ADDED----------2016/08/18
+        'push': "Push",
+        'compressedView': "Vista panell comprimida",
+        'helpIssues': "Ajuda",   //"Ajuda / Suggeriments",
+        'help': "Ajuda",
+        'serviceAnnouncements': "Servei Alertes",
+        'noAnnounce': "No hi ha alertes",
+        'gotoGithub': "Anar a GitHub",
+        'enhancements': "Millores",
+        'bugs': "Errades",
+        'all': "Tot",
+        'helpWanted': "Buscar ajuda",
+        'question': "Pregunta",
+        'unread': "sense llegir",
+        'filterBy': "Filtrar per",
+        //---------------------------------------ADDED----------2016/08/24
+        'appAuthentication': "Creació de codi",
+        'pinCreated': "Codi creat",
+        'pinNoMatch': "Codis no coincideixen",
+        'confirmPin': "Confirma codi",
+        'appPin': "Aplicar codi",
+        'cancel': "Cancelar",
+        'createNewPin': "Crear nou codi",
+        'requirePinStartup': "Requereix codi al inicia",
+        'enterPinProceed': "Introdueix el teu codi per obrir",
+        'authenticate': "Autentificació",
+        //---------------------------------------ADDED----------2016/09/03
+        'autoConnect': "Connecti Automàticament",
+        //---------------------------------------Modified----------2016/09/06
+        'checkSitename': "Comprova el nom del lloc",
+        'bypassed2': "anulada",
     }
