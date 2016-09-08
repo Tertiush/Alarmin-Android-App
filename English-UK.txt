@@ -191,9 +191,8 @@
         //---------------------------------------ADDED----------2016/08/02
         'checkIpDns': "Check IP / DNS", 
         'siteDnsIpReq': "Sitename or IP/DNS required",
-        'checkSitename': "Check sitename. This should not contain spaces. If you do not use the ParadoxMyHome.com service, simply remove the sitename.",
         'importantNotice': "Important notice!",
-        'specialFeaturesNotice': "Most special functions will make a new ('software port') connection to your alarm panel which is not encrypted, and connect using your password (unprotected). Use these features with caution as network interruptions might leave the alarm panel in incorrect states. <b>Also ensure the correct software port is configured in your settings.</b> <br> <br> Only tested on MG5050 (v4.91)",
+        'specialFeaturesNotice': "Most special functions will make a new ('software port') connection to your alarm panel which is not encrypted, and connect using your password (unprotected). Use these features with caution as network interruptions might leave the alarm panel in incorrect states. <b>Also ensure the correct software port is configured in your settings.</b>",
         //---------------------------------------ADDED----------2016/08/06
         'noEmailOpen': "Cannot set - all available email locations used",
         'retrievingSettings': "retrieving settings...",
@@ -252,7 +251,7 @@
         //---------------------------------------ADDED----------2016/08/13
         'disconnectingAlarm': "Disconnecting alarm...",
         'backToExit': "Press back button again to exit",
-        //---------------------------------------ADDED----------
+        //---------------------------------------ADDED----------2016/08/18
         'push': "Push",
         'compressedView': "Compress Alarm Screen",
         'helpIssues': "Help / Issues",
@@ -266,5 +265,22 @@
         'helpWanted': "Help Wanted",
         'question': "Question",
         'unread': "unread",
-        'filterBy': "Filter by"
+        'filterBy': "Filter by",
+        //---------------------------------------ADDED----------2016/08/24
+        'appAuthentication': "App authentication",
+        'pinCreated': "Pin created",
+        'pinNoMatch': "Pin does not match",
+        'confirmPin': "Confirm pin",
+        'appPin': "Application pin",
+        'cancel': "Cancel",
+        'createNewPin': "Create new pin",
+        'requirePinStartup': "Require Pin on Startup",
+        'enterPinProceed': "Enter your pin to proceed",
+        'authenticate': "Authenticate",
+        //---------------------------------------ADDED----------2016/09/03
+        'autoConnect': "Automatic Connect",
+        //---------------------------------------Modified----------2016/09/06
+        'checkSitename': "Check sitename. If you do not use the ParadoxMyHome.com service, simply remove the sitename.",
+        'bypassed2': "bypassed",
+
     }
