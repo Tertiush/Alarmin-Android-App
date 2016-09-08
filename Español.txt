@@ -1,4 +1,4 @@
-var spanish = {
+    var spanish = {
         'checkingComms': "comprobando comunicación.",
         'noComms': "Sin comunicación, comprueba la conexión y configuración del panel (por defecto IP)",
         'ready': "Preparado...",
@@ -32,7 +32,7 @@ var spanish = {
         'onDelayOff': "Activar = Activo..espera..Apagado",
         'offDelayOn': "Desactivar = Paro..espera..Activo",
         'allDelays1Sec': "Todos los pulsos son de 1 segundo.",
-        'off' : "Apagado",
+        'off': "Apagado",
         'pgmControlOff': "PGM control Apagado...",
         'pgmControlOnDone': "PGM control Activo. Listo",
         'pgmControlOn': "PGM control Activo...",
@@ -41,7 +41,7 @@ var spanish = {
         'area': "area",
         'noChangeDisconnecting': "no hay cambios detectados, desconectando",
         'getAlarmInfoFailed': "error cargando info del panel",
-        'loginRequestFailed':"petición de inicio fallo",
+        'loginRequestFailed': "petición de inicio fallo",
         'couldNotConnect': "no se puede conectar!",
         'controllingArea': "area de control",
         'errorDisconnecting': "error, desconectando",
@@ -69,7 +69,7 @@ var spanish = {
         'manageAlarms': "Configurar alarmas",
         'viewLogs': "Ver Registros",
         'settings': "Configuración",
-        'about': "Acerca de...",
+        'about': "Acerca de",
         'settingsDisabled': "Config desactivada",
         'home': "Principal",
         /*      --------------- Display: Settings ---------------       */
@@ -119,7 +119,7 @@ var spanish = {
         'ipAddress': "Dirección IP",
         'or': "o", //this (or) that
         'secureOption': "Usar SSL/TLS (HTTPS)",
-        'webPort': "Puerto Web (http/s)",
+        'webPort': "Puerto Web",
         'softwarePort': "Puerto Software",
         'typicalSoftPort': "Por defecto 10000",
         'pinCode': "Código usuario",
@@ -191,9 +191,8 @@ var spanish = {
         //---------------------------------------ADDED----------2016/08/02
         'checkIpDns': "Comprueba IP / DNS",
         'siteDnsIpReq': "Nombre o IP/DNS requerido",
-        'checkSitename': "Compruebe el nombre del sitio",
         'importantNotice': "Notificación importante!",
-        'specialFeaturesNotice': "La mayoría de las funciones especiales se hacen desde una nueva conexión ('puerto de software'). Esto conecta a través de su contraseña, pero sin encriptar. Utilizar estas características con cautela, ya que las interrupciones de red pueden dejar el panel de alarma en estado incorrecto. Además comprueba la correcta configuracion del puerto de software en las opciones.</b> <br> <br>Sólo probado en MG5050 (v4.91)",
+        'specialFeaturesNotice': "La mayoría de las funciones especiales se hacen desde una nueva conexión ('puerto de software'). Esto conecta a través de su contraseña, pero sin encriptar. Utilizar estas características con cautela, ya que las interrupciones de red pueden dejar el panel de alarma en estado incorrecto. Además comprueba la correcta configuracion del puerto de software en las opciones.</b>",
         //---------------------------------------ADDED----------2016/08/06
         'noEmailOpen': "No se puede configurar, todos los destinos de emails usados",
         'retrievingSettings': "recuperando configuración...",
@@ -245,5 +244,39 @@ var spanish = {
         'pmhReady': "(PHM) Preparado...",
         'updatingEvents': "actualizando eventos",
         'earlyPushNote': "Esta característica se encuentra en una fase temprana de prueba. Asegurarse de hacer una copia de seguridad de la configuración de los correos electrónicos que hay en su módulo IP antes de continuar.",
-        'ok': "Aceptar"
-}
+        'ok': "Aceptar",
+        //---------------------------------------ADDED----------2016/08/13
+        'disconnectingAlarm': "Desconectando panel...",
+        'backToExit': "Pulsa botón atras de nuevo para salir",
+        //---------------------------------------ADDED----------2016/08/18
+        'push': "Push",
+        'compressedView': "Vista alarma comprimida",
+        'helpIssues': "Ayuda",  //Ayuda / Peticiones 
+        'help': "Ayuda",
+        'serviceAnnouncements': "Servicio Alertas",
+        'noAnnounce': "No hay alertas",
+        'gotoGithub': "Ir a GitHub",
+        'enhancements': "Mejoras",
+        'bugs': "Fallos",
+        'all': "Todo",
+        'helpWanted': "Buscar ayuda",
+        'question': "Pregunta",
+        'unread': "sin leer",
+        'filterBy': "Filtrar por",
+        //---------------------------------------ADDED----------2016/08/24
+        'appAuthentication': "Creacion código",
+        'pinCreated': "Código creado",
+        'pinNoMatch': "Códigos no coinciden",
+        'confirmPin': "Confirmar código",
+        'appPin': "Aplicar código",
+        'cancel': "Cancelar",
+        'createNewPin': "Crear nuevo código",
+        'requirePinStartup': "Requiere codigo al iniciar",
+        'enterPinProceed': "Introduce tu código para abrir",
+        'authenticate': "Autentificación",
+        //---------------------------------------ADDED----------2016/09/03
+        'autoConnect': "Conecte Automáticamente",
+        //---------------------------------------Modified----------2016/09/06
+        'checkSitename': "Compruebe el nombre del sitio",
+        'bypassed2': "anulada",
+    }
