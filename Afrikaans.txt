@@ -191,9 +191,8 @@
         //---------------------------------------ADDED----------2016/08/02
         'checkIpDns': "Bevestig IP / DNS",
         'siteDnsIpReq': "'Sitename' of IP/DNS benodig",
-        'checkSitename': "Bevestig 'sitename'",
         'importantNotice': "Belangerlike nota!",
-        'specialFeaturesNotice': "Meeste spesiale funksies sal 'n nuwe ('sagteware poort') verbinding tot u alarm maak wat nie geënkripteer is nie en konnekteer met u wagwoord (onbeskermd). Gebruik die funksies versigtig siendende dat netwerk onderbrekings dalk u alarm in 'n verkeerde staat kan laat. <b>Daarby bevestig dat die korrekte sagteware poort ingestel is vir die alarm.</b> <br> <br> Funksies slegs getoets met MG5050 (v4.91)",
+        'specialFeaturesNotice': "Meeste spesiale funksies sal 'n nuwe ('sagteware poort') verbinding tot u alarm maak wat nie geënkripteer is nie en konnekteer met u wagwoord (onbeskermd). Gebruik die funksies versigtig siendende dat netwerk onderbrekings dalk u alarm in 'n verkeerde staat kan laat. <b>Daarby bevestig dat die korrekte sagteware poort ingestel is vir die alarm.</b>",
         //---------------------------------------ADDED----------2016/08/06
         'noEmailOpen': "Kon nie stel - alle beskikbare e-pos slotte word tans gebruik",
         'retrievingSettings': "laai tans instellings...",
@@ -263,5 +262,21 @@
         'helpWanted': "Hulp Benodig",
         'question': "Vrae",
         'unread': "ongelees",
-        'filterBy': "Filtreer met"
+        'filterBy': "Filtreer met",
+        //---------------------------------------ADDED----------2016/08/24
+        'appAuthentication': "Applikasie Aanteken",
+        'pinCreated': "Pin geskep",
+        'pinNoMatch': "Pin is nie dieselfde nie",
+        'confirmPin': "Bevestig pin",
+        'appPin': "Applikasie pin",
+        'cancel': "kanselleer",
+        'createNewPin': "Skep nuwe pin",
+        'requirePinStartup': "Applikasie pin",
+        'enterPinProceed': "Pin benodig om voort te gaan",
+        'authenticate': "Teken aan",
+        //---------------------------------------ADDED----------2016/09/03
+        'autoConnect': "Konnekteer Automaties",
+        //---------------------------------------Modified----------2016/09/06
+        'checkSitename': "Bevestig 'sitename'",
+        'bypassed2': "ge-omseil",
     }
