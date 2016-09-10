@@ -9,4 +9,5 @@ If you would like to see the app translated to your language, download the Engli
 * Keep the translation roughly the same or shorter length (open the app to see where the translation need to fit it)
 * All "quotations" must stay so that I can directly import the file into the application
 * Take note of capitals in the sentences and try to reproduce them in the translation
+* Some text has markers inside, typically enclosed in <>. Please keep these at the same location within the translation, and take note of any spaces before or after them. Markers such as \<b> Alarmin \</b> will bold the word Alarmin, and <br> will create a new line.
 * New text is always added at the bottom of the English-UK.txt file. If you are updating an existing language, always check that the latest text is at the bottom. If not, simply copy it over and translate.
