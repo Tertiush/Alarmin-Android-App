@@ -282,5 +282,17 @@
         //---------------------------------------Modified----------2016/09/06
         'checkSitename': "Check sitename. If you do not use the ParadoxMyHome.com service, simply remove the sitename.",
         'bypassed2': "bypassed",
-
-    }
+        //---------------------------------------ADDED----------2016/09/06
+        'pushHistory': "Push History",
+        'retrievingHistory': "Retrieving History...",
+        'noHistory': "No history available",
+        'zone': "Zone",
+        'errorTTS': "Error with text to speech engine",
+        'zoneTesting': "Zone Testing",
+        'trigZoneTest': 'Tigger zones to be tested',
+        'speakWithTestMode': 'Tigger zones to be tested, will only speak changes once per zone',
+        'speakOnWithTestMode': 'Testing in progress, will only speak changes once per zone',
+        'testZones': "Test Zones",
+        'resetTest': "Reset Test",
+        'speakZones': "Speak Zones",
+        'untested': "Untested",
