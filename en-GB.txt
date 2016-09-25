@@ -268,7 +268,7 @@
         "speakZones": "Speak Zones",
         "untested": "Untested",
         "egSpecialFunc": "e.g. bypass/pgm",
-		"changePgmName": "Change PGM Name",
+	"changePgmName": "Change PGM Name",
         "connectedAlarmDetails": "Connected alarm's details:",
         "panelDetails": "Panel details",
         "type": "Type",
@@ -278,5 +278,10 @@
         "hardware": "Hardware",
         "eco": "ECO",
         "serialBoot": "Serial boot",
-        "ipModule": "IP module"
+        "ipModule": "IP module",
+	"pgm": 'PGM',
+        "connectingSwp": "connecting to software port...",
+        "FORCE": "FORCE ARM",
+        "disarmBeforeBypass": "Bypass not possible whilst alarm is armed",
+        "forceArmShowArm": "Force arming - upon completion alarm will show as ARM"
     }
