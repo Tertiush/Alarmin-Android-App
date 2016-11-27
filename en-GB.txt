@@ -283,5 +283,12 @@
         "connectingSwp": "connecting to software port...",
         "FORCE": "FORCE ARM",
         "disarmBeforeBypass": "Bypass not possible whilst alarm is armed",
-        "forceArmShowArm": "Force arming - upon completion alarm will show as ARM"
+        "forceArmShowArm": "Force arming - upon completion alarm will show as ARM",
+	"optional": "optional",
+        "settings2": "settings",
+        "nameOnly": "name only",
+        "genericSettings": "Generic settings",
+        "homeWifi": "Home WiFi",
+        "testPushNotif": "Would you like to trigger a test push notification? <br><br>If this application is open the notification will be shown within the app. Minimize the app to see it in the notification bar."
+
     }
