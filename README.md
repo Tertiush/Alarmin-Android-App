@@ -1,5 +1,5 @@
 # Alarmin
-Alamin is an android app for controlling Paradox alarms through an IP module. <b>If you are already an Alarmin user and would like to show your appreciation, I have a special button just for that ;)</b>
+Alamin is an android app for controlling Paradox alarms through an IP module. <b>If you are already an Alarmin user and would like to show your appreciation (and support my server required for push messages), I have a special button just for that ;)</b>
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QDLPX7ECTEPAA)
 Bear in mind that there are no benefits in contributing, it's merely a way to show gratitude.
