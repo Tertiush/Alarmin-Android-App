@@ -289,6 +289,14 @@
         "nameOnly": "name only",
         "genericSettings": "Generic settings",
         "homeWifi": "Home WiFi",
-        "testPushNotif": "Would you like to trigger a test push notification? <br><br>If this application is open the notification will be shown within the app. Minimize the app to see it in the notification bar."
+        "testPushNotif": "Would you like to trigger a test push notification? <br><br>If this application is open the notification will be shown within the app. Minimize the app to see it in the notification bar.",
+	"pushSounds": "Push Notification Sounds",
+        "alarm": "Alarm",
+        "disarm": "Disarm",
+        "arm": "Arm",
+        "saveSounds": "Save Sounds",
+        "soundsUpdated" : "Sounds updated on the server",
+        "errorSetSound": "Either you haven't registered for push notifications, or there's been an error connecting to the server. To register for notifications connect to your alarm and select the 'Push' option."
+
 
     }
