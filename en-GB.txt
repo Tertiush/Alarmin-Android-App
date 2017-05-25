@@ -296,7 +296,28 @@
         "arm": "Arm",
         "saveSounds": "Save Sounds",
         "soundsUpdated" : "Sounds updated on the server",
-        "errorSetSound": "Either you haven't registered for push notifications, or there's been an error connecting to the server. To register for notifications connect to your alarm and select the 'Push' option."
+        "errorSetSound": "Either you haven't registered for push notifications, or there's been an error connecting to the server. To register for notifications connect to your alarm and select the 'Push' option.",
+	        "ifttt": "IFTTT",
+        "makerKey": "Maker key",
+        "eventName": "Event name",
+        "enabledEvents": "Enabled Events",
+        "add": "Add",
+        "remove": "Remove",
+        "eventAlreadyAdded": "A similar event is already configured",
+        "selectPushEvents": "Select from past Push events",
+        "iftttUpdated": "IFTTT settings updated on the server",
+        "errorSetIfttt": "Either you haven't registered for push notifications, or there's been an error connecting to the server. To register for notifications connect to your alarm and select the 'Push' option.",
+        "errorNoUuidForIfttt": "Your device is not registered on the server for push notifications. This is required for IFTTT integration",
+        "errorReceiveIFTTT": "Error receiving IFTTT settings from server",
+        "errorReceivePushHistory": "Error receiving push history fro server",
+        "errorIfttt": "Error updating the IFTTT setting on the server, please try again later",
+        "iftttDisabled": "IFTTT service is disabled within the settings",
+        "IftttHistory": "IFTTT History",
+        "serverResponse": "Server response:",
+        "response": "Response",
+        "path": "Path",
+        "statusCode": "Status Code",
+        "emptyEvent": "One or more enabled event does not have any fields selected. Select at least one field for each event to be trigger upon."
 
 
     }
